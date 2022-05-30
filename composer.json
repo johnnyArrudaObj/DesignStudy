@@ -1,0 +1,23 @@
+{
+  "name": "jow/estudos",
+  "description": "For study",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "johnny.arruda",
+      "email": "johnny.arruda@objective.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Study\\Design\\" : "src/"
+    }
+  },
+  "require": {
+
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  }
+}

@@ -1,0 +1,17 @@
+version: '3'
+
+networks:
+  backend:
+
+services:
+  php:
+    build:
+      context: php
+    container_name: php_study
+    restart: always
+    ports:
+      - 9005:80
+    volumes:
+      - ../:/var/www/html
+    networks:
+      - backend
